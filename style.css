@@ -1,0 +1,48 @@
+body {
+    margin-top: 25px;
+
+    width: 100%;
+    text-align: center;
+
+    background-color: #e5e5e2;
+    color: rgba(0,0,0,255);
+
+    font-family: 'Gill Sans', Helvetica, sans-serif;;
+    font-size: 16px;
+}
+
+article {
+    padding-left: 15%;
+    padding-right: 15%;
+
+    display: inline-block;
+}
+
+#generated {
+    font-size: 24px;
+}
+
+button {
+  background-color: #000000;
+  color: #fff;
+
+  border-radius: 0px;
+  border-style: none;
+
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 4px 10px 4px;
+
+  outline: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  opacity: .75;
+}
